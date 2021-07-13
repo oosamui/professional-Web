@@ -15,7 +15,7 @@ export default {
    */
   head: {
     titleTemplate(title) {
-      return (title ? `${title} | ` : '') + process.env.npm_package_name
+      return (title ? `${title} | ` : '') + process.env.npm_package_name + 'aaa'
     },
     meta: [
       { charset: 'utf-8' },
@@ -70,5 +70,5 @@ export default {
   build: {},
   generate: {
     fallback: true,
-  }
+  },
 }
