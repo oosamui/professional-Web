@@ -1,5 +1,10 @@
 <template>
   <div>
+    <meta
+      name="google-site-verification"
+      content="533EfTyMAh5z-JdgxkYsrvc4o9CfDurXbWbHHqcXVhg"
+    />
+    <p>確認用文字見えたらけしてOK</p>
     <layout-header></layout-header>
     <Nuxt />
     <layout-footer></layout-footer>
