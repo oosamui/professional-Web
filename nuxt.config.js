@@ -11,10 +11,6 @@ export default {
       lang: 'en',
     },
     meta: [
-      {
-        name: 'google-site-verification',
-        content: '533EfTyMAh5z-JdgxkYsrvc4o9CfDurXbWbHHqcXVhg',
-      },
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
@@ -51,6 +47,14 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
   ],
+    vuetify: {    
+    theme: {
+      primary: '#3f51b5',
+      secondary: '#b0bec5',
+      accent: '#8c9eff',
+      error: '#b71c1c'
+    }
+  }
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
