@@ -47,14 +47,14 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
   ],
-    vuetify: {    
+  vuetify: {
     theme: {
       primary: '#3f51b5',
       secondary: '#b0bec5',
       accent: '#8c9eff',
-      error: '#b71c1c'
-    }
-  }
+      error: '#b71c1c',
+    },
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
